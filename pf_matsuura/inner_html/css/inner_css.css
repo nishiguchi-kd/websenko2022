@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+html{ scroll-behavior: smooth;}
+
+/*
+*{
+    outline: 2px solid red;
+}
+*/
+
+@font-face {
+    font-family: "my-font";
+    src: url(../fonts/onryou.TTF) format('truetype'),
+         url(../fonts/onryou.woff) format('woff'),
+         url(../fonts/onryou.eot) format('truetype');
+}
+
+header.header{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: auto;
+    background-color: #f4e22a;
+}
+header.header .contents-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header.header .contents-wrapper nav.global{
+    margin: 0 90px 0;
+}
+header.header .contents-wrapper nav.global ul.menu{
+    display: flex;
+    height: 76px;
+    justify-content: right;
+    align-items: center;
+}
+header.header .contents-wrapper nav.global ul.menu li{
+    margin-left: 5%;
+}
+header.header .contents-wrapper nav.global ul.menu li span{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 20px;
+}
+header.header .contents-wrapper nav.global ul.menu li span a{
+    display: block;
+}
+/*
+メイン
+*/
+main article section.work{
+    background-color: #efefef;
+    background-image: url(../img/inner-work-pattern.png);
+}
+main article section.work .contents-wrapper{
+    max-width: 1280px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 130px 90px 70px;
+}
+main article section.work .contents-wrapper figure{
+    width: 90.9%;
+    height: auto;
+    margin: 0 auto;
+}
+main article section.work .contents-wrapper figure .work-box{
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: aqua;
+    overflow-y: scroll;
+    overflow-x: auto;
+    border: 5px solid black;
+    margin-bottom: 17px;
+}
+main article section.work .contents-wrapper figure .box-100x63::before{
+    content: "";
+    display: block;
+    padding-top: 63%;
+}
+main article section.work .contents-wrapper figure .work-box .inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+main article section.work .contents-wrapper figure .work-box .inner img{
+    width: 100%;
+    height: auto;
+}
+main article section.work .contents-wrapper figure{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 24px;
+}
+/*
+その他作品
+*/
+main article section.work_others{
+    background: linear-gradient(-135deg, #2f318e, #4dbdc0, #94c33a);
+}
+main article section.work_others .contents-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 90px;
+}
+main article section.work_others .contents-wrapper h2{
+    padding: 40px 0 70px;
+    width: 24.76%;
+    height: auto;
+    min-width: 181px;
+}
+main article section.work_others .contents-wrapper h2 img{
+    width: 100%;
+    height: auto;
+}
+main article section.work_others .web_others-wrap ul li a figure figcaption{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 20px;
+}
+/*
+右から左へ
+----------------------------*/
+@keyframes infinity-scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+main article section.work_others .web_others-wrap{
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 90px;
+}
+main article section.work_others .web_others-wrap ul{
+    display: flex;
+    animation :infinity-scroll-left 10s infinite linear 1s both;
+}
+main article section.work_others .web_others-wrap ul li{
+    width: calc(100vw / 3 - 20px);
+    padding-left: 20px;
+}
+main article section.work_others .web_others-wrap ul li a{
+    border: 3px solid honeydew;
+    display: block;
+}
+main article section.work_others .web_others-wrap ul li a img{
+    width: 100%;
+}
+main article section.work_others .web_others-wrap:hover ul{
+    animation-play-state: paused;
+}
+
+@media screen and (max-width: 520px) {
+    header.header .contents-wrapper nav.global{
+        margin: 0 40px 0;
+    }
+    main article section.work .contents-wrapper{
+        max-width: 1280px;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        padding: 130px 40px 70px;
+    }
+    main article section.work_others .contents-wrapper h2{
+        padding: 30px 0 40px;
+        width: 24.76%;
+        height: auto;
+        min-width: 181px;
+    }
+}

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+html{ scroll-behavior: smooth;}
+
+/*
+*{
+    outline: 2px solid red;
+}
+*/
+
+@font-face {
+    font-family: "my-font";
+    src: url(../fonts/onryou.TTF) format('truetype'),
+         url(../fonts/onryou.woff) format('woff'),
+         url(../fonts/onryou.eot) format('truetype');
+}
+
+header.header{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: auto;
+    background-color: #f4e22a;
+}
+header.header .contents-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header.header .contents-wrapper nav.global{
+    margin: 0 90px 0;
+}
+header.header .contents-wrapper nav.global ul.menu{
+    display: flex;
+    height: 76px;
+    justify-content: right;
+    align-items: center;
+}
+header.header .contents-wrapper nav.global ul.menu li{
+    margin-left: 5%;
+}
+header.header .contents-wrapper nav.global ul.menu li span{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 20px;
+}
+header.header .contents-wrapper nav.global ul.menu li span a{
+    display: block;
+}
+/*
+メイン
+*/
+main article section.work{
+    overflow: hidden;
+    background-color: #efefef;
+    background-image: url(../img/inner-work-pattern.png);
+     height: 100vh;
+}
+main article section.work .contents-wrapper{
+    max-width: 1280px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 130px 90px 70px;
+}
+main article section.work .contents-wrapper .work-box{
+    display: flex;
+    justify-content: space-between;
+}
+main article section.work .contents-wrapper .work-box .work-img{
+    width: 65%;
+    height: 100%;
+}
+main article section.work .contents-wrapper .work-box .work-img img{
+    width: 100%;
+    height: auto;
+}
+main article section.work .contents-wrapper .work-box .work-box_right{
+    width: 33%;
+}
+main article section.work .contents-wrapper .work-box .work-box_right .slide{
+    width: 100%;
+    height: 50%;
+}
+main article section.work .contents-wrapper .work-box .work-box_right .slide iframe{
+    width: 100%;
+    height: 100%;
+}
+main article section.work .contents-wrapper .work-box .work-box_right .text-box{
+    margin-top: 30px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+main article section.work .contents-wrapper .work-box .work-box_right .text-box h4{
+    font-size: 24px;
+}
+main article section.work .contents-wrapper .work-box .work-box_right .text-box p{
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 520px) {
+    main article section.work .contents-wrapper{
+        max-width: 1280px;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        padding: 130px 40px;
+    }
+    main article section.work .contents-wrapper .work-box{
+        display: block;
+    }
+    main article section.work .contents-wrapper .work-box .work-img{
+        width: 100%;
+        height: 100%;
+    }
+    main article section.work .contents-wrapper .work-box .work-img img{
+        width: 100%;
+        height: auto;
+    }
+
+    main article section.work .contents-wrapper .work-box .work-box_right{
+        margin-top: 40px;
+        width: 100%;
+    }
+    main article section.work .contents-wrapper .work-box .work-box_right .slide{
+        width: 100%;
+        height: 250px;
+    }
+    main article section.work .contents-wrapper .work-box .work-box_right .slide iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    main article section.work .contents-wrapper .work-box .work-box_right .text-box{
+        margin-top: 20px;
+        font-family: 'Mochiy Pop One', sans-serif;
+    }
+}

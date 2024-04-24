@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web専攻へようこそ！| TOP</title>
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="scss/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.svg">
+</head>
+
+<body>
+    <div id="splash">
+        <div id="splash_logo"><img src="img/logo.svg" alt="Web専攻へようこそ" class="fuwafuwa"></div>
+    </div>
+
+    <div id="main-container">
+        <div id="cursor" class="cursor"></div>
+        <header>
+            <h1 class="logo">
+                <a href="index.html"><img src="img/logo.svg" alt="Web専攻へようこそ"></a>
+            </h1>
+            <button class="hamburger js-nav">
+                <span class="hamburger_bar"></span>
+                <span class="hamburger_bar"></span>
+                <span class="hamburger_bar"></span>
+            </button>
+
+            <nav class="nav">
+                <div class="nav_container">
+                    <ul class="image-list">
+                        <li class="image-item"><img src="img/nav-left.svg" alt=""></p></li>
+                    </ul>
+                    <ul class="nav-list">
+                        <li><a class="nav-item bg_orange" href="index.html">トップ</a></li>
+                        <li><a class="nav-item bg_aqua" href="html/about.html">Web専攻って？</a></li>
+                        <li><a class="nav-item bg_pink" href="html/senpai.html">先輩たちの声</a>
+                            <ul class="nav-item-box">
+                                <li><a class="box-text" href="html/taiken.html">体験談</a></li>
+                                <li><a class="box-text" href="html/shukatsu.html">就活体験記</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_anker"><a class="nav-item js-nav bg_green" href="#top_portfolio">ポートフォリオリンク集</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="top_mainvis">
+                <div class="wrap">
+                    <div class="inner">
+                        <div class="copy">
+                            <p class="letter">
+                                <span>W</span>
+                                <span>e</span>
+                                <span>b</span>
+                                <span>専</span>
+                                <span>攻</span>
+                                <span>へ</span>
+                                <br>
+                                <span>よ</span>
+                                <span>う</span>
+                                <span>こ</span>
+                                <span>そ</span>
+                                <span>！</span>
+                            </p><!-- letter -->
+                        </div><!-- copy -->
+                    </div><!-- inner -->
+                    <div class="decoration">
+                        <div class="blue-wave"><img src="img/welcome_main-decoration-blue-wave.svg" alt=""></div>
+                        <div class="pink-triangle"><img src="img/welcome_main-decoration-pink-triangle.svg" alt=""></div>
+                        <div class="green-round"><img src="img/welcome_main-decoration-green-round.svg" alt=""></div>
+                        <div class="red-square"><img src="img/welcome_main-decoration-red-square.svg" alt=""></div>
+                        <div class="blue-square"><img src="img/welcome_main-decoration-blue-square.svg" alt=""></div>
+                        <div class="orange-round"><img src="img/welcome_main-decoration-orange-round.svg" alt=""></div>
+                        <div class="green-wave"><img src="img/welcome_main-decoration-green-wave.svg" alt=""></div>
+                    </div>
+                </div><!-- mainvis_wrap -->
+                <div class="link_pf">
+                    <a href="#top_portfolio" class="js-scroll">
+                        <p>
+                            <img src="img/welcome_top-pc.svg" alt="2年WEB専攻のポートフォリオが見れるよ">
+                        </p>
+                    </a>
+                </div><!-- link_pf -->
+                <div class="scrolldown"><span>scroll</span></div>
+            </section><!-- #main_top -->
+
+            <section id="top_welcome">
+                <div class="wrap">
+                    <div class="inner">
+                        <div class="tit fadeIn_item offs">
+                            <h3 class="bg_orange line01">
+                                Web専攻へ
+                            </h3>
+                            <h3 class="bg_orange">
+                                ようこそ!
+                            </h3>
+                        </div>
+                        <div class="welcome_bg">
+                            <div class="illust window">
+                                <p>
+                                    <img src="img/welcome_bg-blue_top.svg" alt="ブラウザのイラスト">
+                                </p>
+                            </div>
+                            <div class="illust boy">
+                                <p>
+                                    <img src="img/welcome_bg-blue_bottom.svg" alt="男の子">
+                                </p>
+                            </div>
+                            <div class="illust girl">
+                                <p>
+                                    <img src="img/welcome_bg-orange_top.svg" alt="女の子">
+                                </p>
+                            </div>
+                            <div class="illust pc">
+                                <p>
+                                    <img src="img/welcome_bg-orange_bottom.svg" alt="パソコン">
+                                </p>
+                            </div>
+                        </div><!-- welcome_bg -->
+                        <div class="welcome_txt">
+                            <ul class="catch_list">
+                                <li class="catch_item fadeIn_item offs">
+                                    <p>
+                                        <span class="underline"><span class="under_red">Webデザイン</span></span>を作ることが好き！
+                                    </p>
+                                </li>
+                                <li class="catch_item fadeIn_item offs">
+                                    <p>
+                                        <span class="underline"><span class="under_blue">コーディング</span></span>が好き！
+                                    </p>
+                                </li>
+                                <li class="catch_item fadeIn_item offs">
+                                    <p>
+                                        <span class="underline"><span class="under_pink">Webサイトを見ること</span></span>が好き！
+                                    </p>
+                                </li>
+                                <li class="catch_item fadeIn_item offs">
+                                    <p>
+                                        <span class="underline line01"><span class="under_green">Web制作の授業を</span></span><br
+                                            class="pc-none">
+                                        <span class="underline"><span class="under_green">受けること</span></span>が好き！
+                                    </p>
+                                </li>
+                            </ul>
+                            <p class="welcome_txt_p fadeIn_item offs">
+                                Web専攻は、<br>
+                                そんな好きなことをさらに掘り下げて<br>
+                                じっくり学べます！<br>
+                                興味がある人はぜひWeb専攻に来てね！<br>
+                            </p>
+                        </div><!-- welcome_txt -->
+                    </div><!-- inner -->
+                </div><!-- wrap -->
+            </section><!-- #top_welcome -->
+
+            <section id="top_about" class="fadeIn_item offs">
+                <div class="wrap">
+                    <div class="inner">
+                        <div class="tit">
+                            <div class="tit_img">
+                                <p>
+                                    <img src="img/welcome_people-orangeboy.svg" alt="男の子">
+                                </p>
+                            </div><!-- tit_img -->
+                            <h3 class="bg_aqua">
+                                Web専攻って？
+                            </h3>
+                        </div><!-- tit -->
+                        <div class="container">
+                            <div class="about_img about_item">
+                                <p>
+                                    <img src="img/welcome_illust-yellow.svg" alt="燃えさかる女の子">
+                                </p>
+                            </div><!-- top_about_img -->
+                            <div class="about_txt about_item">
+                                <h4 class="under_orange">
+                                    Web専攻って何するの？
+                                </h4>
+                                <p class="about_txt_p">
+                                    Web専攻は、Webデザインを作りまくったり、自分のWebデザインをコーディングしたり、自分でアプリを考えてデザインをしたりするコース！<br>
+                                    Web専攻ですること、気になる時間割、先生のことや作品紹介など、専攻を決める前に知ってほしいことやWeb専攻ならではの魅力をたっぷり紹介します！
+                                </p>
+                                <button class="about_btn btn01 btn_aqua">
+                                    <a href="html/about.html">
+                                        <p class="btn01_txt">
+                                            Web専攻って？
+                                        </p>
+                                    </a>
+                                </button>
+                            </div><!-- about_txt -->
+                        </div><!-- container -->
+                    </div><!-- inner -->
+                </div><!-- top_about_wrap -->
+            </section><!-- #top_about -->
+
+            <section id="top_senpai" class="fadeIn_item offs">
+                <div class="wrap">
+                    <div class="inner">
+                        <div class="tit">
+                            <div class="tit_img">
+                                <p>
+                                    <img src="img/welcome_people-pinkgirl.svg" alt="ピンクガール">
+                                </p>
+                            </div><!-- tit_img -->
+                            <h3 class="bg_red">
+                                先輩たちの声
+                            </h3>
+                        </div><!-- tit -->
+                        <div class="senpai_container">
+                            <div class="senpai_item">
+                                <div class="senpai_img">
+                                    <p>
+                                        <img src="img/welcome_illust-pink.svg" alt="先輩たちの体験談">
+                                    </p>
+                                </div><!-- senpai_img -->
+                                <div class="senpai_txt">
+                                    <h4 class="under_pink">
+                                        体験談
+                                    </h4>
+                                    <p class="senpai_txt_p">
+                                        Web専攻だけど実はコーディングが苦手……？専攻決めの決め手は……？<br>
+                                        あなたの聞きたいリアルなWeb専攻が見れるかもしれません！<br>
+                                        やっておけば良かったことをまとめた懺悔コーナーもあるよ！
+                                    </p>
+                                </div><!-- senpai_txt -->
+                            </div><!-- senpai_item -->
+                            <div class="senpai_item">
+                                <div class="senpai_img">
+                                    <p>
+                                        <img src="img/welcome_illust-green.svg" alt="タイムマシン">
+                                    </p>
+                                </div><!-- senpai_img -->
+                                <div class="senpai_txt">
+                                    <h4 class="under_green">
+                                        作品ビフォーアフター
+                                    </h4>
+                                    <p class="senpai_txt_p">
+                                        1年生課題の祇園牧場、歯医者、旅館たけ川、多良岳わさびをリデザイン！<br>
+                                        もし1年生の時の課題をやり直すなら、こう直す！WEB専攻に入ってから成長できたよ！！
+                                    </p>
+                                </div><!-- senpai_txt -->
+                            </div><!-- senpai_item -->
+                        </div><!-- senpai_container -->
+                        <button class="about_btn btn01 btn_red">
+                            <a href="html/senpai.html">
+                                <p class="btn01_txt">
+                                    先輩たちの声を見る
+                                </p>
+                            </a>
+                        </button>
+                    </div><!-- inner -->
+                </div><!-- wrap -->
+            </section><!-- #senpai -->
+
+            <section id="top_portfolio" class="fadeIn_item offs">
+                <div class="wrap">
+                    <div class="inner">
+                        <div class="tit">
+                            <div class="tit_img">
+                                <p>
+                                    <img src="img/welcome_pc.svg" alt="PC">
+                                </p>
+                            </div><!-- tit_img -->
+                            <h3 class="bg_green">
+                                ポートフォリオ
+                            </h3>
+                        </div><!-- tit -->
+                        <div class="read">
+                            <p class="read_p">
+                                就職活動で必ず必要なのが、<br>制作物をまとめた自分のWebサイト！<br>
+                                ポートフォリオがないと就職できないよ・・・<br>
+                                そこで！2年生のポートフォリオを<br>特別に大公開！
+                            </p>
+                        </div>
+                        <div class="portfolio_list_wrap">
+                            <ul class="portfolio_list">
+                                <li class="portfolio_item">
+                                    <a href="http://yuraran.com/" target="_blank">
+                                        <div class="img bg_pink">
+                                            <p>
+                                                <img src="img/welcome_portforio01.png" alt="PORTFOLIO">
+                                            </p>
+                                        </div><!-- img_wrap -->
+                                        <div class="name_wrap">
+                                            <div class="name_ic">
+                                                <p>
+                                                    <img src="img/icon_pink-people.svg" alt="ゆららんのアイコン">
+                                                </p>
+                                            </div><!-- name_ic -->
+                                            <div class="name_txt">
+                                                <p>PORTFOLIO</p>
+                                            </div><!-- name_txt -->
+                                        </div><!-- name_wrap -->
+                                    </a>
+                                </li>
+                                <li class="portfolio_item">
+                                    <a href="https://orihime.cocotte.jp/portfolio/" target="_blank">
+                                        <div class="img bg_blue">
+                                            <p>
+                                                <img src="img/welcome_portforio02.png" alt="hime’s portfolio">
+                                            </p>
+                                        </div><!-- img_wrap -->
+                                        <div class="name_wrap">
+                                            <div class="name_ic">
+                                                <p>
+                                                    <img src="img/icon_lightblue-people.svg" alt="織姫のアイコン">
+                                                </p>
+                                            </div><!-- name_ic -->
+                                            <div class="name_txt">
+                                                <p>hime’s portfolio</p>
+                                            </div><!-- name_txt -->
+                                        </div><!-- name_wrap -->
+                                    </a>
+                                </li>
+                                <li class="portfolio_item">
+                                    <a href="https://nonkichi.cocotte.jp/cording_portforio/" target="_blank">
+                                        <div class="img bg_red">
+                                            <p>
+                                                <img src="img/welcome_portforio03.png" alt="NON’S PORTFOLIO">
+                                            </p>
+                                        </div><!-- img_wrap -->
+                                        <div class="name_wrap">
+                                            <div class="name_ic">
+                                                <p>
+                                                    <img src="img/icon_orange-people.svg" alt="のんさんのアイコン">
+                                                </p>
+                                            </div><!-- name_ic -->
+                                            <div class="name_txt">
+                                                <p>NON’S PORTFOLIO</p>
+                                            </div><!-- name_txt -->
+                                        </div><!-- name_wrap -->
+                                    </a>
+                                </li>
+                                <li class="portfolio_item">
+                                    <a href="http://sushikuine.com/" target="_blank">
+                                        <div class="img bg_green">
+                                            <p>
+                                                <img src="img/welcome_portforio04.png" alt="Tamane’s PORTFOLIO">
+                                            </p>
+                                        </div><!-- img_wrap -->
+                                        <div class="name_wrap">
+                                            <div class="name_ic">
+                                                <p>
+                                                    <img src="img/icon_green-people.svg" alt="たまねんのアイコン">
+                                                </p>
+                                            </div><!-- name_ic -->
+                                            <div class="name_txt">
+                                                <p>Tamane’s PORTFOLIO</p>
+                                            </div><!-- name_txt -->
+                                        </div><!-- name_wrap -->
+                                    </a>
+                                </li>
+                                <li class="portfolio_item">
+                                    <a href="https://uyuchan.com" target="_blank">
+                                        <div class="img bg_orange">
+                                            <p>
+                                                <img src="img/uyuchan_pf.png" alt="Tamane’s PORTFOLIO">
+                                            </p>
+                                        </div><!-- img_wrap -->
+                                        <div class="name_wrap">
+                                            <div class="name_ic">
+                                                <p>
+                                                    <img src="img/icon_yellow-people.svg" alt="うゆちゃんのアイコン">
+                                                </p>
+                                            </div><!-- name_ic -->
+                                            <div class="name_txt">
+                                                <p>Kawano yuuka’s  portfolio </p>
+                                            </div><!-- name_txt -->
+                                        </div><!-- name_wrap -->
+                                    </a>
+                                </li>
+                                <li class="portfolio_item">
+                                    <a href="https://nnnanami-works.com/" target="_blank">
+                                        <div class="img bg_red">
+                                            <p>
+                                                <img src="img/kusu_pf_img.png" alt="Portfolio">
+                                            </p>
+                                        </div><!-- img_wrap -->
+                                        <div class="name_wrap">
+                                            <div class="name_ic">
+                                                <p>
+                                                    <img src="img/icon_orange-people.svg" alt="くすちゃんアイコン">
+                                                </p>
+                                            </div><!-- name_ic -->
+                                            <div class="name_txt">
+                                                <p>Portfolio</p>
+                                            </div><!-- name_txt -->
+                                        </div><!-- name_wrap -->
+                                    </a>
+                                </li>
+                                <li class="portfolio_item">
+                                    <a href="pf_akashi/index.html" target="_blank">
+                                        <div class="img bg_blue">
+                                            <p>
+                                                <img src="img/akashi_pf.png" alt="Portfolio">
+                                            </p>
+                                        </div><!-- img_wrap -->
+                                        <div class="name_wrap">
+                                            <div class="name_ic">
+                                                <p>
+                                                    <img src="img/icon_blue-people.svg" alt="明石くんのアイコン">
+                                                </p>
+                                            </div><!-- name_ic -->
+                                            <div class="name_txt">
+                                                <p>ポートフォリオ</p>
+                                            </div><!-- name_txt -->
+                                        </div><!-- name_wrap -->
+                                    </a>
+                                </li>
+                                <li class="portfolio_item">
+                                    <a href="pf_matsuura/index.html" target="_blank">
+                                        <div class="img bg_green">
+                                            <p>
+                                                <img src="img/matsuura_pf.png" alt="portfolio">
+                                            </p>
+                                        </div><!-- img_wrap -->
+                                        <div class="name_wrap">
+                                            <div class="name_ic">
+                                                <p>
+                                                    <img src="img/icon_black-people.svg" alt="松浦くんのアイコン">
+                                                </p>
+                                            </div><!-- name_ic -->
+                                            <div class="name_txt">
+                                                <p>portfolio</p>
+                                            </div><!-- name_txt -->
+                                        </div><!-- name_wrap -->
+                                    </a>
+                                </li>
+                            </ul>
+                        </div><!-- portfolio_list_wrap -->
+                        <button class="more btn01 btn_orange">
+                            <p class="btn01_txt">
+                                もっと見る
+                            </p>
+                        </button>
+                    </div><!-- inner -->
+                </div><!-- portfolio_wrap -->
+            </section><!-- #portfolio -->
+
+            <section id="top_matome" class="fadeIn_item offs">
+                <div class="wrap">
+                    <div class="inner">
+                        <div class="tit">
+                            <h3 class="bg_pink">
+                                Web専攻においで
+                            </h3>
+                        </div><!-- tit -->
+                        <div class="matome_txt">
+                            <p class="txt">
+                                もしWebデザイン、<br class="br-none">
+                                コーディングが苦手でも<br>
+                                先生たちが優しく、<br class="br-none">
+                                丁寧に教えてくれるので大丈夫！<br>
+                                安心してWeb専攻に来てください！
+                            </p>
+                        </div><!-- matome_txt -->
+                        <div class="matome_img">
+                            <p>
+                                <img src="img/welcome_people-greenboy.svg" alt="ゴールテープ切る男">
+                            </p>
+                        </div><!-- matome_img -->
+                    </div><!-- inner -->
+                </div><!-- wrap -->
+            </section><!-- #top_matome -->
+            <div id="page-top"><a href="#"></a></div>
+        </main>
+
+        <footer>
+            <div class="wrap">
+                <div class="inner">
+                    <p class="copyright">
+                        copyright©︎2022 Web専攻向上委員会
+                    </p>
+                </div><!-- inner -->
+            </div><!-- wrap -->
+        </footer>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,619 @@
+ /* *{
+        outline: 2px solid red;
+     }   */
+
+main {
+        max-width: 1440px;
+        background-color: #FFFAF9;
+}
+
+.section-title p span {
+        color: #BD8E62;
+}
+
+header.global {
+        display: flex;
+        align-items: center;
+}
+
+header.global .contents-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+}
+
+header.global .contents-wrapper .logo {
+        margin-left: 150px;
+        margin-right: 537px;
+}
+
+header.global .contents-wrapper .logo  h1 img {
+        display: block;
+        margin: 0 auto;
+       margin-bottom: 8px;
+}
+
+header.global .contents-wrapper .logo  h2 img {
+        display: block;
+        margin: 0 auto;
+        width: 87px;
+        height: 12px;
+}
+
+header.global .contents-wrapper nav.global {
+        display: block;
+}
+
+header.global .contents-wrapper nav.global ul.menu {
+        display: flex;
+}
+
+header.global .contents-wrapper nav.global ul.menu li figure {
+        display: flex;
+}
+
+header.global .contents-wrapper nav.global ul.menu li figure img {
+        display: block;
+        margin-right: 8px;
+}
+
+header.global .contents-wrapper nav.global ul.menu li figure figcaption {
+        margin-right: 40px;
+}
+
+article.container {
+        max-width: 1440px;    
+        margin: 0 auto;    
+}
+
+article.container section.mainvisual-space {
+        margin-bottom: 120px;
+}
+
+article.container section.mainvisual-space p.image {
+        width: 100%;
+}
+
+article.container section.mainvisual-space p.image img {
+        width: 100%;
+}
+
+article.container section.location-space .section-title p {
+        text-align: center;
+        font-size: 24px;
+}
+
+article.container section.location-space .section-title h3 {
+        text-align: center;
+        font-size: 40px;
+}
+
+article.container section.location-space .contents-wrapper {
+        margin: 0 auto;
+}
+
+article.container section.location-space .contents-wrapper .section-title {
+        margin-bottom: 160px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-beach {
+        display: flex;
+        justify-content: end;
+        position: relative;
+        margin-bottom: 240px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-beach .text-box {
+        position: absolute;
+        top: 80px;
+        left: 120px;
+        width: 620px;
+        height: 450px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 160px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-beach .text-box h4 {
+        font-size: 40px;
+        margin-bottom: 16px;
+        margin-top: 40px;
+        margin-left: 40px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-beach .text-box h5 {
+        font-size: 16px;
+        margin-bottom: 32px;
+        margin-left: 40px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-beach .text-box p.text {
+        font-size: 16px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-beach .text-box p.button {
+        text-align: center;   
+        margin: 0 auto;  
+        margin-left: 40px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-beach .text-box p.button a {
+        display: block;
+        padding: 8px 32px;
+        width: 175px;
+        background-color: #BD8E62;
+}
+
+article.container section.location-space .contents-wrapper ul.list-beach .text-box p.button a:hover {
+        display: block;
+        padding: 7px 31px;
+        width: 175px;
+        background-color: #FFF;
+        border:  solid 1px #BD8E62;
+}
+
+article.container section.location-space .contents-wrapper ul.list-beach .text-box p.button a:hover span {
+        color: #BD8E62;
+}
+
+article.container section.location-space .contents-wrapper ul.list-beach .text-box p.button a span {
+        color: #FFF;
+}
+
+article.container section.location-space .contents-wrapper .list-chapel {
+        display: flex;
+        position: relative;
+        margin-bottom: 240px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-chapel .text-box {
+        position: absolute;
+        top: 80px;
+        left: 720px;
+        width: 620px;
+        height: 450px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 160px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-chapel .text-box h4 {
+        font-size: 40px;
+        margin-bottom: 16px;
+        margin-top: 40px;
+        margin-left: 40px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-chapel .text-box h5 {
+        font-size: 16px;
+        margin-bottom: 32px;
+        margin-left: 40px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-chapel .text-box p.text {
+        font-size: 16px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-chapel .text-box p.button {
+        text-align: center;   
+        margin: 0 auto;  
+        margin-left: 40px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-chapel .text-box p.button a {
+        display: block;
+        padding: 8px 32px;
+        width: 175px;
+        background-color: #BD8E62;
+}
+
+article.container section.location-space .contents-wrapper ul.list-chapel .text-box p.button a:hover {
+        display: block;
+        padding: 7px 31px;
+        width: 175px;
+        background-color: #FFF;
+        border: solid 1px #BD8E62;
+}
+
+article.container section.location-space .contents-wrapper ul.list-chapel .text-box p.button a:hover span {
+        color: #BD8E62;
+}
+
+article.container section.location-space .contents-wrapper ul.list-chapel .text-box p.button a span {
+        color: #FFF;
+}
+
+article.container section.location-space .contents-wrapper ul.list-glasslands {
+        display: flex;
+        justify-content: end;
+        position: relative;
+        margin-bottom: 240px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-glasslands .text-box {
+        position: absolute;
+        top: 80px;
+        left: 120px;
+        width: 620px;
+        height: 450px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 160px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-glasslands .text-box h4 {
+        font-size: 40px;
+        margin-bottom: 16px;
+        margin-top: 40px;
+        margin-left: 40px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-glasslands .text-box h5 {
+        font-size: 16px;
+        margin-bottom: 32px;
+        margin-left: 40px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-glasslands .text-box p.text {
+        font-size: 16px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-glasslands .text-box p.button {
+        text-align: center;   
+        margin: 0 auto;  
+        margin-left: 40px;
+}
+
+article.container section.location-space .contents-wrapper ul.list-glasslands .text-box p.button a {
+        display: block;
+        padding: 8px 32px;
+        width: 175px;
+        background-color: #BD8E62;
+}
+
+article.container section.location-space .contents-wrapper ul.list-glasslands .text-box p.button a:hover {
+        display: block;
+        padding: 7px 31px;
+        width: 175px;
+        background-color: #FFF;
+        border: solid 1px #BD8E62;
+}
+
+article.container section.location-space .contents-wrapper ul.list-glasslands .text-box p.button a:hover span {
+        color: #BD8E62;
+}
+
+article.container section.location-space .contents-wrapper ul.list-glasslands .text-box p.button a span {
+        color: #FFF;
+}
+
+article.container section.dress-space .section-title {
+        padding-top: 120px;
+        margin-bottom: 120px;
+}
+
+article.container section.dress-space .section-title p {
+        text-align: center;
+        font-size: 24px;
+}
+
+article.container section.dress-space .section-title h3 {
+        text-align: center;
+        font-size: 40px;
+}
+
+article.container section.dress-space .contents-wrapper ul.list {
+        display: flex;
+        justify-content: space-around;
+}
+
+article.container section.dress-space .contents-wrapper ul.list .photo {
+        position: relative;
+}
+
+article.container section.dress-space .contents-wrapper ul.list .photo .text-box {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 46px;
+        background-color: rgba(0, 0, 0, 50%);
+        opacity: 1;
+} 
+
+article.container section.dress-space .contents-wrapper ul.list .photo .text-box p.box {
+        opacity: 0;
+}
+
+article.container section.dress-space .contents-wrapper ul.list .photo:hover .text-box p.box {
+        opacity: 1;
+} 
+
+article.container section.dress-space .contents-wrapper ul.list .photo:hover .text-box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 50%);
+        transition: all .3s ease;
+        opacity: 1;
+}
+
+article.container section.dress-space .contents-wrapper ul.list .photo:hover .text-box .text {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%,-50%,0);
+}  
+
+article.container section.dress-space .contents-wrapper ul.list .photo .text-box .text p.title {
+        display: block;
+        margin: 0 auto;
+        padding: 8px;
+        margin-bottom: 24px;
+}
+
+article.container section.dress-space .contents-wrapper ul.list .photo .text-box .text p.title span {
+        font-size: 24px;
+        color: #FFF;
+}
+
+article.container section.dress-space .contents-wrapper ul.list .photo .text-box .text p {
+        text-align: center;
+        width: 584px;
+        font-size: 24px;
+        color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+article.container section.resever-space .section-title {
+        padding-top: 120px;
+        margin-bottom: 120px;
+}
+
+article.container section.resever-space .section-title p {
+        text-align: center;
+        font-size: 24px;
+}
+
+article.container section.resever-space .section-title h3 {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 80px;
+}
+
+article.container section.resever-space .contents-wrapper ul.list {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 80px;
+}
+
+article.container section.resever-space .contents-wrapper ul.list li p {
+        font-size: 16px;
+}
+
+article.container section.resever-space .contents-wrapper ul.list figcaption {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 16px;
+}
+
+article.container section.resever-space .contents-wrapper ul.list figcaption span {
+        font-size: 60px;
+}
+
+article.container section.resever-space .contents-wrapper ul.list li.n1 img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+}
+
+article.container section.resever-space .contents-wrapper ul.list li.n2 img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 23px;
+}
+
+article.container section.resever-space .contents-wrapper ul.list li.n3 img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 23px;
+}
+
+article.container section.resever-space .contents-wrapper p.button a {
+        display: block;
+        padding: 16px 64px;
+        width: 240px;
+        margin: 0 auto;
+        background-color: #BD8E62;
+}
+
+article.container section.resever-space .contents-wrapper p.button a:hover {
+        display: block;
+        padding: 15px 63px;
+        width: 240px;
+        margin: 0 auto;
+        background-color: #FFF;
+        border: solid 1px #BD8E62;
+}
+
+article.container section.resever-space .contents-wrapper p.button a:hover span {
+        color: #BD8E62;
+}
+
+article.container section.resever-space .contents-wrapper  p.button a span {
+        color: #FFF;
+        font-size: 16px;
+}
+
+article.container section.news-space {
+        background-color: #FFF;
+}
+
+article.container section.news-space .section-title {
+        padding-top: 120px;
+        margin-bottom: 120px;
+}
+
+article.container section.news-space .section-title p {
+        text-align: center;
+        font-size: 24px;
+}
+
+article.container section.news-space .section-title h3 {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 80px;
+}
+
+article.container section.news-space .contents-wrapper .text-box {
+        margin-left: 108px;
+}
+
+article.container section.news-space .contents-wrapper .text-box p.text {
+        margin-bottom: 24px;
+}
+
+article.container section.news-space .contents-wrapper .text-box p.day {
+        font-size: 12px;
+        color: #BD8E62;
+        margin-bottom: 40px;
+}
+
+article.container section.news-space .contents-wrapper .text-box p.line {
+        margin-bottom: 40px;
+}
+
+article.container section.news-space .contents-wrapper .text-box p.line:last-child {
+        padding-bottom: 153px;
+        margin-bottom: 0px;
+}
+
+article.container section.news-space .contents-wrapper .text-box p.day:last-child {
+        padding-bottom: 194px;
+        margin-bottom: 0;
+}
+
+
+article.container section.contact-space {
+        background-image: url(../img/contact.png);
+        width: 1440px;
+        height: 640px;
+        margin-bottom: 72px;
+}
+
+article.container section.contact-space .section-title {
+        padding-top: 120px;
+        margin-bottom: 120px;
+}
+
+article.container section.contact-space .section-title p {
+        text-align: center;
+        font-size: 24px;
+        color: #BD8E62;
+}
+
+article.container section.contact-space .section-title h3 {
+        text-align: center;
+        font-size: 40px;
+}
+
+article.container section.contact-space ul.list {
+        display: flex;
+        justify-content: space-around;
+}
+
+article.container section.contact-space ul.list p.button {
+        text-align: center;
+}
+
+article.container section.contact-space ul.list p.button a {
+        display: block;
+        padding: 40px 70px;
+        width: 400px;
+        border: solid 1px #370D00;
+}
+
+article.container section.contact-space ul.list p.button a span {
+        font-size: 20px;
+}
+
+article.container section.contact-space ul.list p.button a:hover {
+        display: block;
+        padding: 40px 70px;
+        width: 400px;
+        background-color: #FFF;
+        border: solid 1px #370D00;
+}
+
+footer .contents-wrapper ul.list {
+        display: flex;
+}
+
+footer .contents-wrapper ul.list li.logo {
+        display: block;
+        margin-left: 150px;
+        margin-right: 40px;
+        margin-bottom: 64px;
+        
+}
+
+footer .contents-wrapper ul.list li.logo h1 img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 8px;        
+}
+
+footer .contents-wrapper ul.list li.logo h2 img {
+        display: block;
+        margin: 0 auto;
+}
+
+footer .contents-wrapper ul.list li.info p {
+        margin-bottom: 8px;
+}
+
+footer .contents-wrapper ul.list li.info p:last-child {
+        margin-bottom: 0px;
+}
